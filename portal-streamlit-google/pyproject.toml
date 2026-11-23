@@ -1,0 +1,19 @@
+[project]
+name = "portal-streamlit-google"
+version = "0.1.0"
+description = "Portal de consulta a dados com Streamlit e autenticação Google OIDC"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "pandas>=2.2,<3",
+  "plotly>=6.0,<7",
+  "pycap>=2.7.0",
+  "python-dotenv>=1.2.4",
+  "streamlit-aggrid>=1.2.1.post2",
+  "streamlit[auth]>=1.66.0,<2",
+  "truststore>=0.10.5",
+]
+
+[tool.uv]
+package = false
+

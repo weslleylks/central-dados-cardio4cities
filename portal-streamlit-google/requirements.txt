@@ -1,0 +1,5 @@
+# Alternativa para plataformas que usam requirements.txt em vez de uv.
+pandas>=2.2,<3
+plotly>=6.0,<7
+streamlit[auth]>=1.66.0,<2
+
